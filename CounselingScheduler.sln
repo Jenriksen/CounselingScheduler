@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "calendar", "calendar", "{C98A222A-EB36-4396-A174-48CBA87C4E53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adapter", "calendar\adapter\adapter.csproj", "{C0951F7A-082D-42A0-8880-2141A1444327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "adapter", "calendar\adapter\adapter.csproj", "{C0951F7A-082D-42A0-8880-2141A1444327}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application", "calendar\application\application.csproj", "{2580B637-2925-4DA3-AEB4-007C0999B151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "application", "calendar\application\application.csproj", "{2580B637-2925-4DA3-AEB4-007C0999B151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain", "calendar\domain\domain.csproj", "{96CB1A52-DA40-4B5D-814D-C93072E1FC8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "domain", "calendar\domain\domain.csproj", "{96CB1A52-DA40-4B5D-814D-C93072E1FC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "calendar\test\test.csproj", "{C6FD5108-6D46-41FD-9D24-5272C3160127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C0951F7A-082D-42A0-8880-2141A1444327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -60,10 +59,29 @@ Global
 		{96CB1A52-DA40-4B5D-814D-C93072E1FC8E}.Release|x64.Build.0 = Release|Any CPU
 		{96CB1A52-DA40-4B5D-814D-C93072E1FC8E}.Release|x86.ActiveCfg = Release|Any CPU
 		{96CB1A52-DA40-4B5D-814D-C93072E1FC8E}.Release|x86.Build.0 = Release|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Debug|x64.Build.0 = Debug|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Debug|x86.Build.0 = Debug|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Release|x64.ActiveCfg = Release|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Release|x64.Build.0 = Release|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Release|x86.ActiveCfg = Release|Any CPU
+		{C6FD5108-6D46-41FD-9D24-5272C3160127}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C0951F7A-082D-42A0-8880-2141A1444327} = {C98A222A-EB36-4396-A174-48CBA87C4E53}
 		{2580B637-2925-4DA3-AEB4-007C0999B151} = {C98A222A-EB36-4396-A174-48CBA87C4E53}
 		{96CB1A52-DA40-4B5D-814D-C93072E1FC8E} = {C98A222A-EB36-4396-A174-48CBA87C4E53}
+		{C6FD5108-6D46-41FD-9D24-5272C3160127} = {C98A222A-EB36-4396-A174-48CBA87C4E53}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3516EC14-C993-4702-AAD3-4D3F3F5201E1}
 	EndGlobalSection
 EndGlobal

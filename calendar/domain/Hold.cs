@@ -1,10 +1,10 @@
 using System;
 
-namespace calendar.Hold
+namespace domain
 {
     public class Hold
     {
-        public int Id { get; set; }    
+        public int Id { get; set; }
 
     }
     
