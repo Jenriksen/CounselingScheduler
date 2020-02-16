@@ -1,6 +1,6 @@
 using System;
 
-namespace adapter
+namespace CounselingScheduler.WebApi
 {
     public class WeatherForecast
     {

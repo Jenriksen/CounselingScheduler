@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace application
+namespace CounselingScheduler.Application
 {
     public class Class1
     {
